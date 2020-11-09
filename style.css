@@ -1,0 +1,101 @@
+html {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    height: 100%;
+    min-height: 100%;
+    text-justify: auto;
+} 
+
+.top-nav {
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.top-nav a {
+    color: #f2f2f2;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 16px; 
+}
+
+ul {
+    list-style: circle;
+    padding-left: 40px;
+  }
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+#img {
+    align-self: center;
+}
+
+#tribute-info {
+    display:  flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+#about {
+    margin-top: 20px;
+}
+
+#timeline-cont {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+#earlylife-cont {
+    margin-top: 20px;
+}
+
+#career-cont {
+    margin-top: 20px;
+}
+
+#legacy-cont {
+    margin-top: 20px;
+}
+
+#works-cont {
+    margin-top: 20px;
+}
+
+#last-message  {
+    margin-top: 20px;
+}
+
+#last-message p {
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+#more-info {
+    margin-top: 20px;
+}

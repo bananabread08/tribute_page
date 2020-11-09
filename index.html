@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=">
+    <link href="reset.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <title id="title">A Tribute to Dr. Jose P. Rizal</title>
 </head>
 
 <main id="main">
     <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+    <nav class="top-nav">
+            <a href="#about" title="Jump to About">About</a>
+            <a href="#timeline" title="Jump to Relevant Timeline">Relevant Timeline</a>
+            <a href="#works" title="Jump to Literary Works">Literary Works</a>
+            <a href="#tribute-link"  title="Jump to Learn More">Learn More</a>        
+    </nav>
+
     <div id="img-div">
-        <img id = "img" src="assets/rizal.jpeg">
+        <img id = "img" src="assets/rizal.jpeg" alt="picture of dr. jose rizal">
         <h1 id="img-caption">José Protasio Rizal Mercado y Alonso Realonda</h1>
     </div>
 
 <body>
     <div id="tribute-info">
-        <h2 id=>About</h2>
+        <h2 id="about">About</h2>
         <p> Dr.José Rizal was born on June 19, 1861, in Calamba, Philippines. While living in Europe, Rizal wrote about the discrimination that accompanied Spain's colonial rule of his country. He returned to the Philippines in 1892, but was exiled due to his desire for reform. Although he supported peaceful change, Rizal was convicted of sedition and executed on December 30, 1896, at age 35.</p>
     </div>
     
@@ -72,8 +81,28 @@
         
     </div>
 
-    <p>José Rizal's life and works were critical to those from the Philippines who were looking for an end to Spanish colonization.</p>
-    <div>
+    <div id="works-cont">
+        <h2 id="works">Literary Works: Books, Novels, and Essays</h2>
+        <ul>
+            <li>Noli Me Tángere, novel, 1887 (literally Spanish for 'touch me not', from John 20:17)</li>
+            <li>El Filibusterismo, (novel, 1891), sequel to Noli Me Tángere</li>
+            <li>Mi Último Adiós, poem, 1896 (literally "My Last Farewell" )</li>
+            <li>Alin Mang Lahi” (“Whate’er the Race”), a Kundiman attributed to Dr. José Rizal</li>
+            <li>The Friars and the Filipinos (Unfinished)</li>
+            <li>Toast to Juan Luna and Felix Hidalgo (Speech, 1884), given at Restaurante Ingles, Madrid</li>
+            <li>The Diaries of José Rizal Rizal's Letters is a compendium of Dr. Jose Rizal's letters to his family members, Blumentritt, Fr. Pablo Pastells and other reformers</li>
+            <li> "Come se gobiernan las Filipinas" (Governing the Philippine islands)</li>
+            <li>Filipinas dentro de cien años essay, 1889-90 (The Philippines a Century Hence)</li>
+            <li> La Indolencia de los Filipinos, essay, 1890 (The indolence of Filipinos) </li>
+            <li>Makamisa unfinished novel Sa Mga Kababaihang Taga Malolos, essay, 1889, To the Young Women of Malolos</li>
+            <li> Annotations to Antonio de Moragas, Sucesos de las Islas Filipinas (essay, 1889, Events in the Philippine Islands)</li>
+        </ul>
+    </div>
+
+    <div id="last-message"><p>José Rizal's life and works were critical to those from the Philippines who were looking for an end to Spanish colonization.</p>
+    </div>
+    
+    <div id="more-info">
         <p>If you want to know more, read
         <a id="tribute-link" href="https://en.wikipedia.org/wiki/Jos%C3%A9_Rizal" target="_blank">here</a>.</p>
     </div>
